@@ -1,0 +1,26 @@
+{
+  "cli": {
+    "version": ">= 27.11.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "android":{
+      }
+    },
+    "env":{
+      "EXPO_PUBLIC_API_URL":"https://prisma-he19.onrender.com"
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
